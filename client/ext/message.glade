@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="MessageDialog">
+    <property name="can-focus">False</property>
+    <property name="default-width">440</property>
+    <property name="default-height">120</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkButton" id="ok_button">
+            <property name="label" translatable="yes">OK</property>
+            <property name="width-request">100</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">172</property>
+            <property name="y">76</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="message_label">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">label</property>
+          </object>
+          <packing>
+            <property name="x">168</property>
+            <property name="y">3</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
